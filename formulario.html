@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+
+<html>
+			<head>
+						<title>Formulario</title>
+						<link rel="stylesheet" href="formulario.css" type="text/css">
+
+						
+			</head>
+			
+			
+			<body>
+						<div id="contenedor">
+        				 <header id="tituloform">
+								 				 <h1>Formulario de Inscripci&oacute;n</h1>
+								 				 <p id="titular">Introduce los datos de cada apartado para realizar
+												    la subcripci&oacute;n al curso de Samsumg a 
+														trav&eacute;s del servicio de la UPM (Universidad 
+														Polit&eacute;cnica de Madrid)</p>
+								 </header>
+								 
+								 <form id="miform" 
+        				 			 action="http://salonso.etsisi.upm.es/samsung/procesa.php"	method="post">
+        							 <section id="seccion1">
+											 			<fieldset id="bordepersonal">
+											 			
+          							 				<legend>Datos Personales</legend>	
+  															<table id="datospersonales">		
+  																				<tr id="enlaceinf">
+      													 							<td >Nombre: </td>
+  																						<td><input type="text" id="nombre" name="nombre" size="20" maxlength="20" placeholder="Nombre" required="required" autofocus/></td>
+																					    <td colspan="2">Sexo: 
+																							    H<input type="radio" id="radiosexo" name="radiosexo" checked="checked" value="Hombre"/> 
+									                                M<input type="radio" id="radiosexo" name="radiosexo" value="Mujer"/>
+																							</td>
+																					</tr>
+  																				<tr id="enlaceinf">
+      													 							<td >Apellidos: </td>
+  																						<td ><input type="text" id="apellidos" name="apellidos" size="20" maxlength="30" placeholder="Apellidos" required="required" /></td>
+      													 		 					      													 		 				
+																							<td >Direccion: </td>							 		 				
+																							<td ><input type="text" id="direccion" name="direccion" size="30" maxlength="40" placeholder="Direcci&oacute;n" /></td>
+																					</tr>
+  																				<tr id="enlaceinf">
+      													 							<td >Password: </td>
+  																						<td ><input type="password" id="clave" name="clave" size="20" maxlength="20" placeholder="Contrase&ntilde;a" required="required" /></td>
+      													 		 					<td >Tel&eacute;fono: </td>							 		 					
+																							<td ><input type="text" id="telefono" name="telefono" pattern="\d\d\d-\d\d\d-\d\d\d" placeholder="000-000-000"/></td>
+																					</tr>
+                						
+  															</table>
+        										</fieldset>		
+													</section>	
+													
+													<section id="seccion2">
+																	 <fieldset id="datosgenerales">
+																	 					 <table id="tabla2">
+																						 				<tr>
+																												<td colspan="2">Acepta recibir informaci&oacute;n de cualquier curso de la UPM.</td>
+																												<td  class="alinderecha"><input type="checkbox" id="chequear" name="chequear" value="Si quiero" checked="checked" /></td>
+																										</tr>
+																										<tr>
+																												<td>Env&iacute;a tu curriculum vitae:</td>
+																												<td><input type="file" id="cv" name="cv" /></td>
+																										</tr>
+																										<tr>
+																												<td>Elige tu Ciudad:</td>
+																												<td>
+																														<select id="ciudad" name="ciudad" >
+        																														<optgroup label="Castilla La-Mancha">
+        																																			<option value="Guadalajara">Guadalajara</option>
+																																							<option value="Albacete">Albacete</option>
+																																							<option value="Ciudad_Real">Ciudad Real</option>
+																																							<option value="Toledo">Toledo</option>
+        																																		  <option value="Cuenca" selected>Cuenca</option>
+        																														</optgroup>
+        																														<optgroup label="Comunidad de Madrid">
+        																														<option value="Madrid">Madrid</option>
+        																														</optgroup>					
+        																										</select>
+																												</td>
+																										</tr>
+																						 </table>
+																	 </fieldset>												
+													</section>	
+													
+													<section id="seccion3">
+													   <div id="cajatablafin">
+																	 <table	id="tablafin">
+																	 				<tr id="comenta1">
+																							<td><label for="date">Indique la fecha de incio del curso: </label></td>
+																							<td>
+																									<input type="date" id="date" name="date" ></td>
+																					</tr>
+																	 				<tr id="comenta2">
+																							<td colspan="2">Comentarios: </td>
+																					</tr>
+																					<tr id="comenta3">
+																							<td colspan="2">
+																									<textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Ponga aqui sus comentarios..."></textarea>
+																							</td>
+																					</tr>
+																					<tr id="botones">
+																							<td><input type="submit" value="Enviar Datos"/></td>
+																							<td><input type="reset" id="recargar" name="recargar" value="Recargar Campos" /></td>
+																					</tr>
+																	 </table>		
+															</div>	 
+													</section>
+        						</form>
+
+						</div>	 
+			</body>
+</html>
