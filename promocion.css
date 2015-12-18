@@ -1,0 +1,212 @@
+/* Archivo css para la pagina de la promocion */
+/* Cuerpo del documento */
+body          {background:url('fondo1.jpg') no-repeat;
+							 background-size:100%;
+							}
+
+/* Contenedor general */							
+#contenedor   {/*border:1px black solid;*/
+							 width:800px;
+							 height:1000px;
+							 position:relative;
+							 margin:0px auto;
+							}
+
+/* Cabecera de la pagina */														
+#titulopagina {/*border:1px blue solid;*/
+					     width:800px;
+							 height:100px;
+						   position:absolute;
+							 top:0px;
+							 left:0px;
+							 background:url('informatica.jpg') center left 100%;
+							}
+
+#titulopagina1 {/*border:1px blue solid;*/
+						   position:absolute;
+							 top:0px;
+							 left:5px;
+							 font-size:24pt;
+							 color:#EDEEF0;
+							 font-family:Garamond;
+							 font-variant:small-caps;
+							 font-weight:bold;
+							}							
+							
+#paginalogo   {/*border:1px blue solid;*/
+					     width:265px;
+							 height:130px;
+						   position:absolute;
+							 top:0px;
+							 right:0px;
+							 z-index:5;
+							 opacity: 0.8;
+							}										
+							
+/* Navegador superior horizontal */							
+#navegadorsup {border-bottom:1px #CBDDFD solid;
+							 background:url('tabla1.jpg') center left 100%;
+							 width:800px;
+							 height:50px;
+							 position:absolute;
+							 top:100px;
+							 left:0px;
+							}
+							
+#tablanavegadorsup{/*border:1px blue solid;*/
+							 width:535px;
+							 height:100%;
+							 border-collapse:collapse;
+							}						
+							
+#enlacesup    {text-align:center;
+							 font-variant:small-caps;
+							 margin-left:10px;
+							 margin-right:10px;
+							 border-bottom:2px #92ACAD solid;
+							}							
+							
+#enlaceinf    {text-align:left;
+							 font-style:italic;
+							}							
+							
+#informacion  {padding-left:10px;
+							}							
+										
+/* Navegador izquierda vertical */							
+#navegadorizq {border:2px #000000 solid;
+							 width:200px;
+							 height:800px;
+							 position:absolute;
+							 top:150px;
+							 left:0px;
+							 background:url('navizq.jpg') center left 100%;
+							 color:#FFFFFF;
+							}
+							
+#tablaizquierda{border:2px #D4D5D5 solid;
+							 width:100%;
+							}				
+							
+.submenu      {font-size:10pt;
+							 padding-left:25px;
+							
+							}																
+
+#submenu2:hover +submenu{}
+						
+
+
+/* Seccion central - Informacion*/
+#cajacentral   {/*border:1px blue solid;*/
+							  width:590px;
+								height:800px;
+								position:absolute;
+								top:150px;
+								right:0px;
+								
+							 }
+
+#tituloarticulo{/*border:1px blue solid;*/
+								color:#858585;					 
+								font-weight:bold;
+								font-size:18pt;
+								font-family:"Arial";
+								font-variant:small-caps;
+								text-decoration:underline;
+								padding-left:10px;
+								margin-top:10px;
+							 }		
+							 
+#articulo      {/*border:1px blue solid;*/
+							  width:550px;
+								height:700px;
+								position:absolute;
+								top:75px;
+								right:0px;
+								margin-right:20px;
+							 }
+							 						
+#capatech      {text-align:right;
+							  
+							 }
+							 
+#imagentech    {float:right;
+							  padding:10px;
+							 }		
+							 
+#textodoc      {text-align:justify;
+							  font-family:"Times New Roman";
+								text-size:8pt;
+								text-indent:20px;
+							 }
+							 							 					 	 					
+#logosamsung	 {/*border:1px blue solid;*/
+							  width:100%;
+								height:100px;
+								position:absolute;
+								bottom:0px;
+								right:0px;
+							 }					
+
+#imgsamsung    {width:200px;
+								height:105px;
+								position:absolute;
+								bottom:0px;
+								right:0px;
+								padding:2px;
+							 }							 	
+
+/*Pie de pagina*/							
+#piepagina    {/*border:1px blue solid;*/
+							 width:100%;
+							 height:45px;
+							 position:absolute;
+							 bottom:0px;
+							 left:0px;
+							 background-color:#EAFFFF;
+							}
+							
+#tablapie     {/*border:1px blue solid;*/
+							 width:100%;
+							 height:100%;
+							 border-collapse:collapse;
+							 font-size:10pt;
+							 font-style:italic;
+							 color:#848484;
+							}						
+							
+#pieizquierda {padding-left:10px;
+							}
+							
+#piederecha   {text-align:right;
+							 padding-right:10px;							 
+							}															
+							
+#urlpie       {color:#FF0000;
+							}							
+							
+
+/* Formatos */							
+td            {/*border:1px blue solid;*/
+							 width:133px;
+							}															
+
+.celda:hover  {font-weight:bold;
+							}							
+							
+.subrayado:hover{border-bottom:1px #FF0000 solid;
+							}							
+							
+#imgsamsung:hover{border:1px #0000FF solid;
+							}							
+							
+a             {text-decoration:none;
+							 color:#000000;
+							}				
+							
+#menuizq      {border-bottom:1px black solid;
+							 padding-top:10px;
+							 padding-bottom:10px;
+							 padding-left:10px;
+							}			
